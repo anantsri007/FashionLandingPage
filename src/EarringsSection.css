@@ -1,0 +1,41 @@
+.earrings-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .earrings-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .earrings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .earring-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .earring-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .earring-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 10px;
+  }
+  
